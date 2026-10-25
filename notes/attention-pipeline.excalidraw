@@ -35,7 +35,7 @@
       "strokeWidth": 2,
       "text": "Attention 完整乘法流程（Qwen3-0.6B · Wᵀ 竖切视角 · TP=2）",
       "textAlign": "left",
-      "updated": 1792929078174,
+      "updated": 1792929881951,
       "version": 1,
       "versionNonce": 1898511129,
       "verticalAlign": "top"
@@ -72,7 +72,7 @@
       "strokeWidth": 2,
       "text": "所有权重矩阵画的是转置 Wᵀ：水平轴 = output 维（可竖切）；红竖线 = TP 切分，在各 shard 内部 50% 处",
       "textAlign": "left",
-      "updated": 1792929078174,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 1313513207,
       "verticalAlign": "top"
@@ -109,7 +109,7 @@
       "strokeWidth": 2,
       "text": "形状速查：x[n,1024] · W_qkv[4096,1024] · qkv_flat[n,4096] · Q[n,16,128] · scores[16,n,n] · attn[n,2048] · W_o[1024,2048] · out[n,1024]",
       "textAlign": "left",
-      "updated": 1792929078174,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 141307897,
       "verticalAlign": "top"
@@ -140,7 +140,7 @@
       "strokeColor": "#868e96",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078174,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 665430039
     },
@@ -176,7 +176,7 @@
       "strokeWidth": 2,
       "text": "① 投影：x @ W_qkvᵀ —— 一次 GEMM 同时算出全部 Q / K / V",
       "textAlign": "left",
-      "updated": 1792929078174,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 1060489433,
       "verticalAlign": "top"
@@ -213,7 +213,7 @@
       "strokeWidth": 2,
       "text": "x [n, 1024]",
       "textAlign": "left",
-      "updated": 1792929078174,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 1317702967,
       "verticalAlign": "top"
@@ -244,7 +244,7 @@
       "strokeColor": "#1971c2",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078174,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 521749945
     },
@@ -280,7 +280,7 @@
       "strokeWidth": 2,
       "text": "@",
       "textAlign": "left",
-      "updated": 1792929078174,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 1850854999,
       "verticalAlign": "top"
@@ -317,7 +317,7 @@
       "strokeWidth": 2,
       "text": "Q 段 2048（16 头 × 128）",
       "textAlign": "left",
-      "updated": 1792929078174,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 859448985,
       "verticalAlign": "top"
@@ -348,7 +348,7 @@
       "strokeColor": "#1971c2",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078174,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 1372842871
     },
@@ -378,7 +378,7 @@
       "strokeColor": "#1971c2",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078174,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 1447816057
     },
@@ -408,7 +408,7 @@
       "strokeColor": "#1971c2",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078174,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 1968530583
     },
@@ -438,7 +438,7 @@
       "strokeColor": "#1971c2",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078174,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 1083315289
     },
@@ -468,7 +468,7 @@
       "strokeColor": "#1971c2",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078174,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 1485486519
     },
@@ -498,7 +498,7 @@
       "strokeColor": "#1971c2",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078174,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 1440751929
     },
@@ -528,7 +528,7 @@
       "strokeColor": "#1971c2",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078174,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 278424279
     },
@@ -558,7 +558,7 @@
       "strokeColor": "#1971c2",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078174,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 865702425
     },
@@ -588,7 +588,7 @@
       "strokeColor": "#e8590c",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078174,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 437450743
     },
@@ -618,7 +618,7 @@
       "strokeColor": "#e8590c",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078174,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 2125588217
     },
@@ -648,7 +648,7 @@
       "strokeColor": "#e8590c",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078174,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 1795088663
     },
@@ -678,7 +678,7 @@
       "strokeColor": "#e8590c",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078174,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 1907138521
     },
@@ -708,7 +708,7 @@
       "strokeColor": "#e8590c",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078174,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 1154524727
     },
@@ -738,7 +738,7 @@
       "strokeColor": "#e8590c",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078174,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 714947769
     },
@@ -768,7 +768,7 @@
       "strokeColor": "#e8590c",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 1181534039
     },
@@ -798,7 +798,7 @@
       "strokeColor": "#e8590c",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 958872985
     },
@@ -834,7 +834,7 @@
       "strokeWidth": 2,
       "text": "K 段 1024（8×128）",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 1042793591,
       "verticalAlign": "top"
@@ -865,7 +865,7 @@
       "strokeColor": "#1971c2",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 1820205689
     },
@@ -895,7 +895,7 @@
       "strokeColor": "#1971c2",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 1002839447
     },
@@ -925,7 +925,7 @@
       "strokeColor": "#1971c2",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 1634036569
     },
@@ -955,7 +955,7 @@
       "strokeColor": "#1971c2",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 1652314807
     },
@@ -985,7 +985,7 @@
       "strokeColor": "#e8590c",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 1345361977
     },
@@ -1015,7 +1015,7 @@
       "strokeColor": "#e8590c",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 2062476247
     },
@@ -1045,7 +1045,7 @@
       "strokeColor": "#e8590c",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 448997657
     },
@@ -1075,7 +1075,7 @@
       "strokeColor": "#e8590c",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 1160925431
     },
@@ -1111,7 +1111,7 @@
       "strokeWidth": 2,
       "text": "V 段 1024（8×128）",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 445685241,
       "verticalAlign": "top"
@@ -1142,7 +1142,7 @@
       "strokeColor": "#1971c2",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 181082647
     },
@@ -1172,7 +1172,7 @@
       "strokeColor": "#1971c2",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 782005977
     },
@@ -1202,7 +1202,7 @@
       "strokeColor": "#1971c2",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 1890434871
     },
@@ -1232,7 +1232,7 @@
       "strokeColor": "#1971c2",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 159003577
     },
@@ -1262,7 +1262,7 @@
       "strokeColor": "#e8590c",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 155107415
     },
@@ -1292,7 +1292,7 @@
       "strokeColor": "#e8590c",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 1062032537
     },
@@ -1322,7 +1322,7 @@
       "strokeColor": "#e8590c",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 642948471
     },
@@ -1352,7 +1352,7 @@
       "strokeColor": "#e8590c",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 331962745
     },
@@ -1396,7 +1396,7 @@
       "strokeColor": "#e03131",
       "strokeStyle": "solid",
       "strokeWidth": 3,
-      "updated": 1792929078175,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 1798166167
     },
@@ -1440,7 +1440,7 @@
       "strokeColor": "#e03131",
       "strokeStyle": "solid",
       "strokeWidth": 3,
-      "updated": 1792929078175,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 137478745
     },
@@ -1484,7 +1484,7 @@
       "strokeColor": "#e03131",
       "strokeStyle": "solid",
       "strokeWidth": 3,
-      "updated": 1792929078175,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 512027575
     },
@@ -1520,7 +1520,7 @@
       "strokeWidth": 2,
       "text": "W_qkvᵀ [1024, 4096]（转置视角）—— 每格 = 1 个头 = 128 列",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 693767993,
       "verticalAlign": "top"
@@ -1557,7 +1557,7 @@
       "strokeWidth": 2,
       "text": "TP 竖切：三条红竖线各在\nshard 内 50%（q: 8+8，k/v: 4+4）\n\nrank0 = 三段左半（蓝）拼接\n          [1024, 2048]\nrank1 = 三段右半（橙）\n\n⇒ 融合矩阵不是中间一刀！\nweight_loader 按 shard_id\n分别装填各段",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881952,
       "version": 1,
       "versionNonce": 1014783191,
       "verticalAlign": "top"
@@ -1602,7 +1602,7 @@
       "strokeColor": "#495057",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 497401881
     },
@@ -1638,7 +1638,7 @@
       "strokeWidth": 2,
       "text": "qkv_flat [n, 4096]",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1219013111,
       "verticalAlign": "top"
@@ -1669,7 +1669,7 @@
       "strokeColor": "#6741d9",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1929925881
     },
@@ -1705,7 +1705,7 @@
       "strokeWidth": 2,
       "text": "Q 2048",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1611551511,
       "verticalAlign": "top"
@@ -1736,7 +1736,7 @@
       "strokeColor": "#2f9e44",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 755322329
     },
@@ -1772,7 +1772,7 @@
       "strokeWidth": 2,
       "text": "K",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 186767415,
       "verticalAlign": "top"
@@ -1803,7 +1803,7 @@
       "strokeColor": "#f59f00",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 313535161
     },
@@ -1839,7 +1839,7 @@
       "strokeWidth": 2,
       "text": "V",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1338489175,
       "verticalAlign": "top"
@@ -1876,7 +1876,7 @@
       "strokeWidth": 2,
       "text": "x @ W_qkvᵀ 一次 GEMM 全算完",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1017932697,
       "verticalAlign": "top"
@@ -1907,7 +1907,7 @@
       "strokeColor": "#868e96",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 55866999
     },
@@ -1943,7 +1943,7 @@
       "strokeWidth": 2,
       "text": "② 切三段 + reshape 成多头（view 零拷贝）+ RoPE + GQA",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1663930489,
       "verticalAlign": "top"
@@ -1974,7 +1974,7 @@
       "strokeColor": "#6741d9",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1552715671
     },
@@ -2010,7 +2010,7 @@
       "strokeWidth": 2,
       "text": "Q_flat [n, 2048]",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1811355993,
       "verticalAlign": "top"
@@ -2055,7 +2055,7 @@
       "strokeColor": "#495057",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1168409783
     },
@@ -2085,7 +2085,7 @@
       "strokeColor": "#6741d9",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 945587769
     },
@@ -2115,7 +2115,7 @@
       "strokeColor": "#6741d9",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1849742807
     },
@@ -2145,7 +2145,7 @@
       "strokeColor": "#6741d9",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 859920153
     },
@@ -2175,7 +2175,7 @@
       "strokeColor": "#6741d9",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 494273271
     },
@@ -2205,7 +2205,7 @@
       "strokeColor": "#6741d9",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 521735161
     },
@@ -2235,7 +2235,7 @@
       "strokeColor": "#6741d9",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1137216535
     },
@@ -2265,7 +2265,7 @@
       "strokeColor": "#6741d9",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 602350809
     },
@@ -2295,7 +2295,7 @@
       "strokeColor": "#6741d9",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1294790967
     },
@@ -2325,7 +2325,7 @@
       "strokeColor": "#6741d9",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 490676665
     },
@@ -2355,7 +2355,7 @@
       "strokeColor": "#6741d9",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 856142423
     },
@@ -2385,7 +2385,7 @@
       "strokeColor": "#6741d9",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 675578521
     },
@@ -2415,7 +2415,7 @@
       "strokeColor": "#6741d9",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1311592311
     },
@@ -2445,7 +2445,7 @@
       "strokeColor": "#6741d9",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1907017593
     },
@@ -2475,7 +2475,7 @@
       "strokeColor": "#6741d9",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1759660183
     },
@@ -2505,7 +2505,7 @@
       "strokeColor": "#6741d9",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1135964249
     },
@@ -2535,7 +2535,7 @@
       "strokeColor": "#6741d9",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 282795447
     },
@@ -2571,7 +2571,7 @@
       "strokeWidth": 2,
       "text": "Q [n, 16, 128]",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1412955449,
       "verticalAlign": "top"
@@ -2608,7 +2608,7 @@
       "strokeWidth": 2,
       "text": "RoPE ✓ 旋转",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 691818199,
       "verticalAlign": "top"
@@ -2639,7 +2639,7 @@
       "strokeColor": "#2f9e44",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1385557529
     },
@@ -2675,7 +2675,7 @@
       "strokeWidth": 2,
       "text": "K_flat [n, 1024]",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1016749047,
       "verticalAlign": "top"
@@ -2720,7 +2720,7 @@
       "strokeColor": "#495057",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 901956345
     },
@@ -2750,7 +2750,7 @@
       "strokeColor": "#2f9e44",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 251249943
     },
@@ -2780,7 +2780,7 @@
       "strokeColor": "#2f9e44",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1245838297
     },
@@ -2810,7 +2810,7 @@
       "strokeColor": "#2f9e44",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1875839543
     },
@@ -2840,7 +2840,7 @@
       "strokeColor": "#2f9e44",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 2562233
     },
@@ -2870,7 +2870,7 @@
       "strokeColor": "#2f9e44",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1274981207
     },
@@ -2900,7 +2900,7 @@
       "strokeColor": "#2f9e44",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 2031458713
     },
@@ -2930,7 +2930,7 @@
       "strokeColor": "#2f9e44",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 2145200247
     },
@@ -2960,7 +2960,7 @@
       "strokeColor": "#2f9e44",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1447100025
     },
@@ -2996,7 +2996,7 @@
       "strokeWidth": 2,
       "text": "K [n, 8, 128]",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1764688279,
       "verticalAlign": "top"
@@ -3033,7 +3033,7 @@
       "strokeWidth": 2,
       "text": "RoPE ✓ 旋转",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1181534041,
       "verticalAlign": "top"
@@ -3064,7 +3064,7 @@
       "strokeColor": "#f59f00",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 958969527
     },
@@ -3100,7 +3100,7 @@
       "strokeWidth": 2,
       "text": "V_flat [n, 1024]",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1408005177,
       "verticalAlign": "top"
@@ -3145,7 +3145,7 @@
       "strokeColor": "#495057",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 107923415
     },
@@ -3175,7 +3175,7 @@
       "strokeColor": "#f59f00",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1923319065
     },
@@ -3205,7 +3205,7 @@
       "strokeColor": "#f59f00",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 521516279
     },
@@ -3235,7 +3235,7 @@
       "strokeColor": "#f59f00",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1308981753
     },
@@ -3265,7 +3265,7 @@
       "strokeColor": "#f59f00",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 446823959
     },
@@ -3295,7 +3295,7 @@
       "strokeColor": "#f59f00",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1461048025
     },
@@ -3325,7 +3325,7 @@
       "strokeColor": "#f59f00",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 738730807
     },
@@ -3355,7 +3355,7 @@
       "strokeColor": "#f59f00",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 308809657
     },
@@ -3385,7 +3385,7 @@
       "strokeColor": "#f59f00",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 866952279
     },
@@ -3421,7 +3421,7 @@
       "strokeWidth": 2,
       "text": "V [n, 8, 128]",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 639611033,
       "verticalAlign": "top"
@@ -3458,7 +3458,7 @@
       "strokeWidth": 2,
       "text": "RoPE ✗（V 不旋转）",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 291766647,
       "verticalAlign": "top"
@@ -3489,7 +3489,7 @@
       "strokeColor": "#f59f00",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 670053753
     },
@@ -3525,7 +3525,7 @@
       "strokeWidth": 2,
       "text": "GQA 复制：8 组 KV 各复制 2 份\n→ 16 组，每 2 个 Q 头共享 1 组 KV\n（KV cache 省 1/2 显存的原因）",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 913488535,
       "verticalAlign": "top"
@@ -3562,7 +3562,7 @@
       "strokeWidth": 2,
       "text": "reshape = view 零拷贝：最后一维按 (头数, 128) 重新解释 —— 头只是逻辑视图，物理上始终 flat",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 723328601,
       "verticalAlign": "top"
@@ -3593,7 +3593,7 @@
       "strokeColor": "#868e96",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 2005749687
     },
@@ -3629,7 +3629,7 @@
       "strokeWidth": 2,
       "text": "③ 单头内的三步乘法（d_k=128；16 个头各自独立跑一遍）",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 242871097,
       "verticalAlign": "top"
@@ -3666,7 +3666,7 @@
       "strokeWidth": 2,
       "text": "Q' [n, 128]",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 517488855,
       "verticalAlign": "top"
@@ -3697,7 +3697,7 @@
       "strokeColor": "#6741d9",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 174726169
     },
@@ -3733,7 +3733,7 @@
       "strokeWidth": 2,
       "text": "·",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1038618103,
       "verticalAlign": "top"
@@ -3770,7 +3770,7 @@
       "strokeWidth": 2,
       "text": "K'ᵀ [128, n]",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 2128687353,
       "verticalAlign": "top"
@@ -3801,7 +3801,7 @@
       "strokeColor": "#2f9e44",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1069627159
     },
@@ -3837,7 +3837,7 @@
       "strokeWidth": 2,
       "text": "=",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 23243225,
       "verticalAlign": "top"
@@ -3874,7 +3874,7 @@
       "strokeWidth": 2,
       "text": "scores [n, n]",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 987249719,
       "verticalAlign": "top"
@@ -3905,7 +3905,7 @@
       "strokeColor": "#e03131",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 721553081
     },
@@ -3949,7 +3949,7 @@
       "strokeColor": "#c92a2a",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 51486039
     },
@@ -3985,7 +3985,7 @@
       "strokeWidth": 2,
       "text": "Q'·K'ᵀ / √128",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 644007833,
       "verticalAlign": "top"
@@ -4030,7 +4030,7 @@
       "strokeColor": "#495057",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 2076301943
     },
@@ -4060,7 +4060,7 @@
       "strokeColor": "#2f9e44",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 2109238393
     },
@@ -4096,7 +4096,7 @@
       "strokeWidth": 2,
       "text": "softmax\n（沿最后一维 = seq）",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 699233175,
       "verticalAlign": "top"
@@ -4141,7 +4141,7 @@
       "strokeColor": "#495057",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 684094809
     },
@@ -4177,7 +4177,7 @@
       "strokeWidth": 2,
       "text": "weights [n, n]",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 84469943,
       "verticalAlign": "top"
@@ -4208,7 +4208,7 @@
       "strokeColor": "#e03131",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1524654649
     },
@@ -4244,7 +4244,7 @@
       "strokeWidth": 2,
       "text": "·",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 192461271,
       "verticalAlign": "top"
@@ -4281,7 +4281,7 @@
       "strokeWidth": 2,
       "text": "V' [n, 128]",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 283751193,
       "verticalAlign": "top"
@@ -4312,7 +4312,7 @@
       "strokeColor": "#f59f00",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929415035,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 633953879
     },
@@ -4348,7 +4348,7 @@
       "strokeWidth": 2,
       "text": "=",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1599465465,
       "verticalAlign": "top"
@@ -4385,7 +4385,7 @@
       "strokeWidth": 2,
       "text": "head_out [n, 128]",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1465348119,
       "verticalAlign": "top"
@@ -4416,7 +4416,7 @@
       "strokeColor": "#6741d9",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 2654425
     },
@@ -4452,7 +4452,7 @@
       "strokeWidth": 2,
       "text": "causal mask：\nscores 上三角 = -∞\n（token 只看过去）",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 1430213943,
       "verticalAlign": "top"
@@ -4489,7 +4489,7 @@
       "strokeWidth": 2,
       "text": "scores[i,j] = q_i · k_j —— 全 transformer 唯一的 token×token 交互：token i『查询』token j，softmax 后对 V 加权求和",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881953,
       "version": 1,
       "versionNonce": 552926649,
       "verticalAlign": "top"
@@ -4526,7 +4526,7 @@
       "strokeWidth": 2,
       "text": "softmax 的归一化域 = 单个头内沿 seq → 这就是 head_dim 永不切分、attention 零通信的原因",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1395496535,
       "verticalAlign": "top"
@@ -4557,7 +4557,7 @@
       "strokeColor": "#868e96",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1893654169
     },
@@ -4593,7 +4593,7 @@
       "strokeWidth": 2,
       "text": "④ 拼回 flat + 输出投影 + all_reduce（TP 唯一的通信点）",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 938914679,
       "verticalAlign": "top"
@@ -4624,7 +4624,7 @@
       "strokeColor": "#6741d9",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1855562617
     },
@@ -4660,7 +4660,7 @@
       "strokeWidth": 2,
       "text": "attn [n,16,128]",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 467610775,
       "verticalAlign": "top"
@@ -4705,7 +4705,7 @@
       "strokeColor": "#495057",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1986579545
     },
@@ -4741,7 +4741,7 @@
       "strokeWidth": 2,
       "text": "flatten",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 446398903,
       "verticalAlign": "top"
@@ -4772,7 +4772,7 @@
       "strokeColor": "#6741d9",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 270522681
     },
@@ -4808,7 +4808,7 @@
       "strokeWidth": 2,
       "text": "[n, 2048]",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1699754711,
       "verticalAlign": "top"
@@ -4845,7 +4845,7 @@
       "strokeWidth": 2,
       "text": "@",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 2099399193,
       "verticalAlign": "top"
@@ -4876,7 +4876,7 @@
       "strokeColor": "#1971c2",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 345096183
     },
@@ -4906,7 +4906,7 @@
       "strokeColor": "#e8590c",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 107192057
     },
@@ -4950,7 +4950,7 @@
       "strokeColor": "#e03131",
       "strokeStyle": "solid",
       "strokeWidth": 3,
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 979675415
     },
@@ -4986,7 +4986,7 @@
       "strokeWidth": 2,
       "text": "W_oᵀ [2048, 1024]（水平轴 = input = 16 头拼接）",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 174544857,
       "verticalAlign": "top"
@@ -5031,7 +5031,7 @@
       "strokeColor": "#495057",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 876441143
     },
@@ -5061,7 +5061,7 @@
       "strokeColor": "#2f9e44",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1262548153
     },
@@ -5097,7 +5097,7 @@
       "strokeWidth": 2,
       "text": "[n, 1024]",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1023446871,
       "verticalAlign": "top"
@@ -5128,7 +5128,7 @@
       "strokeColor": "#2f9e44",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 2090071449
     },
@@ -5164,7 +5164,7 @@
       "strokeWidth": 2,
       "text": "all_reduce\ny0 + y1",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1057131639,
       "verticalAlign": "top"
@@ -5201,7 +5201,7 @@
       "strokeWidth": 2,
       "text": "TP=2：rank0 算前 8 头\nrank1 算后 8 头\n各出部分和后相加",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 294902393,
       "verticalAlign": "top"
@@ -5238,7 +5238,7 @@
       "strokeWidth": 2,
       "text": "y0 + y1 = (X0 @ W0) + (X1 @ W1) = X @ W —— 矩阵乘线性性：先投影再相加 ≡ 先拼接再投影；每层 2 次 all_reduce（o_proj + down_proj）",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1711793559,
       "verticalAlign": "top"
@@ -5269,7 +5269,7 @@
       "strokeColor": "#868e96",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 413935705
     },
@@ -5305,7 +5305,7 @@
       "strokeWidth": 2,
       "text": "⑤ softmax·V 行视角：out[i] = Σⱼ weights[i,j]·V[j] —— 每个 token 的新表示 = 全体 V 的加权和",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 902555063,
       "verticalAlign": "top"
@@ -5342,7 +5342,7 @@
       "strokeWidth": 2,
       "text": "weights [3,3]（causal，每行和=1）",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1234679097,
       "verticalAlign": "top"
@@ -5373,7 +5373,7 @@
       "strokeColor": "#e03131",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 81008343
     },
@@ -5409,7 +5409,7 @@
       "strokeWidth": 2,
       "text": "1.00",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1933485593,
       "verticalAlign": "top"
@@ -5440,7 +5440,7 @@
       "strokeColor": "#e03131",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1643717623
     },
@@ -5476,7 +5476,7 @@
       "strokeWidth": 2,
       "text": "0",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 815037177,
       "verticalAlign": "top"
@@ -5507,7 +5507,7 @@
       "strokeColor": "#e03131",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 759139607
     },
@@ -5543,7 +5543,7 @@
       "strokeWidth": 2,
       "text": "0",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1914483673,
       "verticalAlign": "top"
@@ -5574,7 +5574,7 @@
       "strokeColor": "#e03131",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1377554999
     },
@@ -5610,7 +5610,7 @@
       "strokeWidth": 2,
       "text": "0.30",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1273680057,
       "verticalAlign": "top"
@@ -5641,7 +5641,7 @@
       "strokeColor": "#e03131",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1500672855
     },
@@ -5677,7 +5677,7 @@
       "strokeWidth": 2,
       "text": "0.70",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 60969369,
       "verticalAlign": "top"
@@ -5708,7 +5708,7 @@
       "strokeColor": "#e03131",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 999813239
     },
@@ -5744,7 +5744,7 @@
       "strokeWidth": 2,
       "text": "0",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1584838265,
       "verticalAlign": "top"
@@ -5775,7 +5775,7 @@
       "strokeColor": "#e03131",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1917897111
     },
@@ -5811,7 +5811,7 @@
       "strokeWidth": 2,
       "text": "0.15",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 791379801,
       "verticalAlign": "top"
@@ -5842,7 +5842,7 @@
       "strokeColor": "#e03131",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1255243447
     },
@@ -5878,7 +5878,7 @@
       "strokeWidth": 2,
       "text": "0.35",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 605301817,
       "verticalAlign": "top"
@@ -5909,7 +5909,7 @@
       "strokeColor": "#e03131",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 2008977367
     },
@@ -5945,7 +5945,7 @@
       "strokeWidth": 2,
       "text": "0.50",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1427389721,
       "verticalAlign": "top"
@@ -5982,7 +5982,7 @@
       "strokeWidth": 2,
       "text": "我",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1663859959,
       "verticalAlign": "top"
@@ -6019,7 +6019,7 @@
       "strokeWidth": 2,
       "text": "追",
       "textAlign": "left",
-      "updated": 1792929078175,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 295645689,
       "verticalAlign": "top"
@@ -6056,7 +6056,7 @@
       "strokeWidth": 2,
       "text": "猫",
       "textAlign": "left",
-      "updated": 1792929078176,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1084212759,
       "verticalAlign": "top"
@@ -6093,7 +6093,7 @@
       "strokeWidth": 2,
       "text": "V(我)",
       "textAlign": "left",
-      "updated": 1792929078176,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1857587929,
       "verticalAlign": "top"
@@ -6130,7 +6130,7 @@
       "strokeWidth": 2,
       "text": "V(追)",
       "textAlign": "left",
-      "updated": 1792929078176,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1594682167,
       "verticalAlign": "top"
@@ -6167,7 +6167,7 @@
       "strokeWidth": 2,
       "text": "V(猫)",
       "textAlign": "left",
-      "updated": 1792929078176,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 351520697,
       "verticalAlign": "top"
@@ -6198,7 +6198,7 @@
       "strokeColor": "#c92a2a",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078176,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 987262039
     },
@@ -6242,7 +6242,7 @@
       "strokeColor": "#c92a2a",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078176,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1316251801
     },
@@ -6278,7 +6278,7 @@
       "strokeWidth": 2,
       "text": "out[2]（『猫』的新表示）—— 取 weights 第 3 行做配比：",
       "textAlign": "left",
-      "updated": 1792929078176,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1339476343,
       "verticalAlign": "top"
@@ -6309,7 +6309,7 @@
       "strokeColor": "#6741d9",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078176,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1424878969
     },
@@ -6345,7 +6345,7 @@
       "strokeWidth": 2,
       "text": "0.15·V0",
       "textAlign": "left",
-      "updated": 1792929078176,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 726434455,
       "verticalAlign": "top"
@@ -6382,7 +6382,7 @@
       "strokeWidth": 2,
       "text": "+",
       "textAlign": "left",
-      "updated": 1792929078176,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1604572761,
       "verticalAlign": "top"
@@ -6413,7 +6413,7 @@
       "strokeColor": "#2f9e44",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078176,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1039013815
     },
@@ -6449,7 +6449,7 @@
       "strokeWidth": 2,
       "text": "0.35·V1",
       "textAlign": "left",
-      "updated": 1792929078176,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1902748473,
       "verticalAlign": "top"
@@ -6486,7 +6486,7 @@
       "strokeWidth": 2,
       "text": "+",
       "textAlign": "left",
-      "updated": 1792929078176,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1843398871,
       "verticalAlign": "top"
@@ -6517,7 +6517,7 @@
       "strokeColor": "#f59f00",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078176,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1721947161
     },
@@ -6553,7 +6553,7 @@
       "strokeWidth": 2,
       "text": "0.50·V2",
       "textAlign": "left",
-      "updated": 1792929078176,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1756812791,
       "verticalAlign": "top"
@@ -6590,7 +6590,7 @@
       "strokeWidth": 2,
       "text": "=",
       "textAlign": "left",
-      "updated": 1792929078176,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1128458489,
       "verticalAlign": "top"
@@ -6621,7 +6621,7 @@
       "strokeColor": "#6741d9",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078176,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 896990999
     },
@@ -6657,7 +6657,7 @@
       "strokeWidth": 2,
       "text": "out[2]",
       "textAlign": "left",
-      "updated": 1792929078176,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 1087201753,
       "verticalAlign": "top"
@@ -6694,7 +6694,7 @@
       "strokeWidth": 2,
       "text": "方块宽度 ∝ 权重：『猫』的新表示 = 15%『我』+ 35%『追』+ 50%『猫』的 V 内容混合成新向量 [128]",
       "textAlign": "left",
-      "updated": 1792929078176,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 110429239,
       "verticalAlign": "top"
@@ -6725,7 +6725,7 @@
       "strokeColor": "#f59f00",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1792929078176,
+      "updated": 1792929881954,
       "version": 1,
       "versionNonce": 475381433
     },
@@ -6761,7 +6761,7 @@
       "strokeWidth": 2,
       "text": "V 只读！信息不是嵌入 V，\n而是每个 token 按自己的\n权重行抽取全体 V\n\nweights 第 i 行 = 取料配比\nK = 标签（被检索）\nV = 内容（被抽取）\n\ndecode：新 token 1 行 Q →\n打分 → 权重行 → 抽取\n整个 KV 池的 V",
       "textAlign": "left",
-      "updated": 1792929078176,
+      "updated": 1792929881955,
       "version": 1,
       "versionNonce": 1274373463,
       "verticalAlign": "top"
@@ -6798,7 +6798,7 @@
       "strokeWidth": 2,
       "text": "V 永不改变、永可复用 —— 这就是 KV cache 的根基：新 token 只需算出自己那行权重，就能按比例抽取全部历史信息",
       "textAlign": "left",
-      "updated": 1792929078176,
+      "updated": 1792929881955,
       "version": 1,
       "versionNonce": 612335513,
       "verticalAlign": "top"
@@ -6835,7 +6835,7 @@
       "strokeWidth": 2,
       "text": "注：这里的『·』是数乘（标量×向量，结果仍是向量），不是 ③ 中 q·k 的点积（结果是一\n个标量）；out = weights @ V 整体仍是矩阵乘法 —— 本行只是 @ 第 i 行的展开形式",
       "textAlign": "left",
-      "updated": 1792929078176,
+      "updated": 1792929881955,
       "version": 1,
       "versionNonce": 1210167479,
       "verticalAlign": "top"
@@ -6872,7 +6872,7 @@
       "strokeWidth": 2,
       "text": "q_i·k_j = 点积 → 标量",
       "textAlign": "left",
-      "updated": 1792929078179,
+      "updated": 1792929881955,
       "version": 1,
       "versionNonce": 518679321,
       "verticalAlign": "top"
@@ -6881,16 +6881,16 @@
       "id": "mvns5pyz48tdoip92g6",
       "type": "text",
       "x": 408,
-      "y": 962,
-      "width": 400,
-      "height": 32,
+      "y": 1002,
+      "width": 419.9547424316406,
+      "height": 18,
       "angle": 0,
       "autoResize": true,
       "backgroundColor": "transparent",
-      "boundElements": null,
+      "boundElements": [],
       "containerId": null,
       "fillStyle": "solid",
-      "fontFamily": 1,
+      "fontFamily": 5,
       "fontSize": 11,
       "frameId": null,
       "groupIds": [],
@@ -6900,18 +6900,18 @@
       "link": null,
       "locked": false,
       "opacity": 100,
-      "originalText": "W_o = 16 个 [1024,128] 列块拼接（每头一块），稠密 → 跨头混合\n可拆成 Σᵢ headᵢ @ W_oᵢ（部分和相加）—— 这就是 TP 零通信 + all_reduce 的原理",
+      "originalText": "W_o = 16 个 [1024,128] 列块（每头一块）拼接 · 稠密→跨头混合 · 可拆成 Σᵢ headᵢ@W_oᵢ = TP 零通信 + all_reduce 的原理",
       "roughness": 1,
       "roundness": null,
-      "seed": 375736989,
+      "seed": 1786741849,
       "strokeColor": "#495057",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "text": "W_o = 16 个 [1024,128] 列块拼接（每头一块），稠密 → 跨头混合\n可拆成 Σᵢ headᵢ @ W_oᵢ（部分和相加）—— 这就是 TP 零通信 + all_reduce 的原理",
+      "text": "W_o = 16 个 [1024,128] 列块（每头一块）拼接 · 稠密→跨头混合 · 可拆成 Σᵢ headᵢ@W_oᵢ = TP 零通信 + all_reduce 的原理",
       "textAlign": "left",
-      "updated": 1792929880766,
+      "updated": 1792929881955,
       "version": 1,
-      "versionNonce": 882067311,
+      "versionNonce": 577522103,
       "verticalAlign": "top"
     }
   ],
